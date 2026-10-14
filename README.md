@@ -26,13 +26,21 @@ Python, pandas, NumPy, Matplotlib, Seaborn and scikit-learn.
 
 ## Evaluation
 Selected model: Logistic Regression
+
 Decision threshold: 0.3052
+
 Test ROC-AUC: 0.8428
+
 Test Average Precision: 0.6331
+
 Test churn precision: 0.44
+
 Test churn recall: 0.93
+
 Test churn F1-score: 0.59
+
 Balanced accuracy: 0.7475
+
 The model was selected using validation data, and the decision threshold was selected before final test evaluation. The chosen threshold prioritizes identifying churn-risk customers, resulting in high recall but lower precision.
 
 
