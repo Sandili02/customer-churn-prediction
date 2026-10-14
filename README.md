@@ -38,7 +38,9 @@ The model was selected using validation data, and the decision threshold was sel
 
 ## Key Findings
 1.The dataset contains 7,043 customer records, with an overall churn rate of 26.54%.
+
 2.Month-to-month contracts have a higher observed churn rate (42.71%) than one-year (11.27%) and two-year contracts (2.83%).
+
 3.The model achieved a test ROC-AUC of 0.8428 and churn recall of 0.93. A business could use its predictions to prioritize customers for retention outreach, while reviewing false positives and the cost of interventions.
 
 ## How to Run
