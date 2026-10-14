@@ -25,20 +25,21 @@ Python, pandas, NumPy, Matplotlib, Seaborn and scikit-learn.
 7. Feature interpretation and business recommendations
 
 ## Evaluation
-- Selected model: [insert model]
-- Decision threshold: [insert threshold]
-- Test ROC-AUC: [insert result]
-- Test average precision: [insert result]
-- Test precision: [insert result]
-- Test recall: [insert result]
-- Test F1-score: [insert result]
+Selected model: Logistic Regression
+Decision threshold: 0.3052
+Test ROC-AUC: 0.8428
+Test Average Precision: 0.6331
+Test churn precision: 0.44
+Test churn recall: 0.93
+Test churn F1-score: 0.59
+Balanced accuracy: 0.7475
+The model was selected using validation data, and the decision threshold was selected before final test evaluation. The chosen threshold prioritizes identifying churn-risk customers, resulting in high recall but lower precision.
 
-The test set was reserved for final evaluation after model and threshold selection.
 
 ## Key Findings
-1. [Insert a finding supported by EDA.]
-2. [Insert a finding supported by model evaluation.]
-3. [Insert a practical business recommendation.]
+1.The dataset contains 7,043 customer records, with an overall churn rate of 26.54%.
+2.Month-to-month contracts have a higher observed churn rate (42.71%) than one-year (11.27%) and two-year contracts (2.83%).
+3.The model achieved a test ROC-AUC of 0.8428 and churn recall of 0.93. A business could use its predictions to prioritize customers for retention outreach, while reviewing false positives and the cost of interventions.
 
 ## How to Run
 1. Open the notebook in Google Colab.
