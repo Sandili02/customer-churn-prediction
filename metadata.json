@@ -1,0 +1,11 @@
+{
+    "project": "Customer Churn Prediction",
+    "selected_model": "Logistic Regression",
+    "decision_threshold": 0.3052,
+    "test_roc_auc": 0.8428,
+    "test_average_precision": 0.6331,
+    "test_churn_precision": 0.44,
+    "test_churn_recall": 0.93,
+    "test_f1_score": 0.59,
+    "balanced_accuracy": 0.7475
+}
