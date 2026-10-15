@@ -62,5 +62,13 @@ The model was selected using validation data, and the decision threshold was sel
 - Performance on this dataset does not guarantee performance on new or future data.
 - Retention actions require separate business and causal evaluation.
 
+## Model Performance
+
+![Model Performance](images/churn_model_performance.png)
+
+## Customer Churn Analysis
+
+![Churn Rate by Contract Type](images/churn_by_contract.png)
+
 ## Author
 Sandili Shinde .BCA graduate interested in Data Science and Machine Learning.
