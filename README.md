@@ -64,11 +64,11 @@ The model was selected using validation data, and the decision threshold was sel
 
 ## Model Performance
 
-![Model Performance](images/churn_model_performance.png)
+![Model Performance](churn_model_performance.png)
 
 ## Customer Churn Analysis
 
-![Churn Rate by Contract Type](images/churn_by_contract.png)
+![Churn Rate by Contract Type](churn_by_contract.png)
 
 ## Author
 Sandili Shinde .BCA graduate interested in Data Science and Machine Learning.
